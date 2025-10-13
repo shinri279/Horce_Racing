@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Jump
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    m_Weight: 0
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/hidariosiri"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/hidariosiri/hidariusiromomo"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/hidariosiri/hidariusiromomo/hidariusiroasisune"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/hidariosiri/hidariusiromomo/hidariusiroasisune/hidariusiroasi"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/hidariosiri/hidariusiromomo/hidariusiroasisune/hidariusiroasi/hidariusiroasi_end"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/migiosiri"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/migiosiri/migiusiromomo"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/migiosiri/migiusiromomo/migiusiroasisune"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/migiosiri/migiusiromomo/migiusiroasisune/migiusiroasi"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/migiosiri/migiusiromomo/migiusiroasisune/migiusiroasi/migiusiroasi_end"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/hidarimune"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/hidarimune/hidarimaehutomomo"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/hidarimune/hidarimaehutomomo/hidarimaesune"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/hidarimune/hidarimaehutomomo/hidarimaesune/hidarimaeasi"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/hidarimune/hidarimaehutomomo/hidarimaesune/hidarimaeasi/hidarimaeasi_end"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/kugi"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/kugi/atama"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/kugi/atama/atama_end"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/migimune"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/migimune/migimaehutomomo"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/migimune/migimaehutomomo/migimaesune"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/migimune/migimaehutomomo/migimaesune/migimaeasi"
+    m_Weight: 1
+  - m_Path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/usirosebone/maesebone/migimune/migimaehutomomo/migimaesune/migimaeasi/migimaeasi_end"
+    m_Weight: 1
+  - m_Path: "\u7ACB\u65B9\u4F53"
+    m_Weight: 1
