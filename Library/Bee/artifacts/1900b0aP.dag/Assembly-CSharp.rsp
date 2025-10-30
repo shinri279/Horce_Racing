@@ -318,6 +318,8 @@
 "Assets/Script/GameScript/Rank.cs"
 "Assets/Script/GameScript/Tutorial/TutorialCountdownTimer.cs"
 "Assets/Script/GameScript/Tutorial/TutorialCurve.cs"
+"Assets/Script/GameScript/Tutorial/TutorialFight.cs"
+"Assets/Script/GameScript/Tutorial/TutorialFight2.cs"
 "Assets/Script/GameScript/Tutorial/TutorialJump.cs"
 "Assets/Script/GameScript/Tutorial/TutorialJump2.cs"
 "Assets/Script/TitleScript/back.cs"
