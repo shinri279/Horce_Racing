@@ -90,6 +90,18 @@ public class Player : MonoBehaviour
         {
             targetY = -90f;
         }
+        else if (transform.position.z < -50f && transform.position.x < 0)
+        {
+            targetY = ((9f / 6f) * transform.position.z) - 110f;//zの位置で計算している
+        }
+        else if (transform.position.z < -50f && transform.position.x >= 0)
+        {
+            targetY = (-(9f / 6f) * transform.position.x) + 90f;//xの位置で計算している
+        }
+        else if (transform.position.z > 100f)
+        {
+            targetY = 90f;
+        }
         else
         {
             // 直線部分
@@ -101,7 +113,7 @@ public class Player : MonoBehaviour
 
         // 直接角度を設定
         transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, smoothY, transform.localEulerAngles.z);
-
+        
 
 
         /*修正版2
@@ -171,8 +183,8 @@ public class Player : MonoBehaviour
             //rot = -((-9f / 5f) * transform.position.x + 90f);
             transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, normalizedY, transform.localEulerAngles.z);
             //transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, rot, transform.localEulerAngles.z);
-        }*/
-        /*10/6修正します
+        }
+        //10/6修正します
         //曲がり切れなかったとき、回転の修正 前のレーンと後ろのレーンの時
         if(-40< transform.position.z && transform.position.z < 40&&transform.localEulerAngles.y!=0)
         {
@@ -181,7 +193,7 @@ public class Player : MonoBehaviour
             if (transform.position.x > 0) // Xが正のとき
             {
                 //右を向いたとき
-                /*if (0<normalizedY &&normalizedY<45)
+                if (0<normalizedY &&normalizedY<45)
                 {
                     speed.y = RotationSpeed * Time.deltaTime; // 時計回りに修正
                 }
@@ -216,7 +228,7 @@ public class Player : MonoBehaviour
             else if (transform.position.x < 0) // Xが負のとき
             {
                 //右向いたとき
-                /*if (-135 > normalizedY && normalizedY > -180)
+                if (-135 > normalizedY && normalizedY > -180)
                 {
                     speed.y = RotationSpeed * Time.deltaTime; // 時計回りに修正
                 }
@@ -252,8 +264,8 @@ public class Player : MonoBehaviour
 
             }
 
-        }*/
-        //transform.eulerAngles -= speed;
+        }
+        transform.eulerAngles -= speed;*/
     }
 
     float NormalizeAngle(float angle)

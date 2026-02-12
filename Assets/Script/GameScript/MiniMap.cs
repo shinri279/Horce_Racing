@@ -14,6 +14,11 @@ public class MiniMap : MonoBehaviour
     public float PlusY;
     public float PlusX;
 
+    [SerializeField] private float minX = -100f;
+    [SerializeField] private float maxX = 100f;
+    [SerializeField] private float minY = -100f;
+    [SerializeField] private float maxY = 100f;
+
     void Start()
     {
         minimapWidth = minimapRectTransform.rect.width;
@@ -53,10 +58,19 @@ public class MiniMap : MonoBehaviour
                 PlusX += 1f * Time.deltaTime;
                 PlusY -= 1.8f * Time.deltaTime;
             }
+            /*else if (CountdownTimer.elapsedTime > 57 && CountdownTimer.elapsedTime < 70)
+            {
+                PlusX -= 1f * Time.deltaTime;
+                PlusY -= 1.5f * Time.deltaTime;
+            }*/
             Vector2 minimapPos = new Vector2(-relativePos.z / 100f * minimapHeight + PlusX, relativePos.x / 20f * (minimapWidth / 2f) + PlusY);
 
             // 相対位置を回転
             Vector2 rotatedPos = rotation * minimapPos; // Quaternion適用
+
+            // ★ 上限・下限を制限（Clamp）
+            rotatedPos.x = Mathf.Clamp(rotatedPos.x, minX, maxX);
+            rotatedPos.y = Mathf.Clamp(rotatedPos.y, minY, maxY);
 
             // ミニマップアイコンの位置を更新
             horseIcons[i].anchoredPosition = Vector2.Lerp(horseIcons[i].anchoredPosition, rotatedPos, rotationSmoothTime);

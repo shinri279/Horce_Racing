@@ -24,6 +24,7 @@ public class TutorialCountdownTimer : MonoBehaviour
     void Start()
     {
         StartCoroutine(CountdownCoroutine());
+        elapsedTime = countdownTime;
     }
 
     // Update is called once per frame

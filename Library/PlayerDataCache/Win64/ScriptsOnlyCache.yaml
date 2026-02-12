@@ -1363,7 +1363,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 4cad7a29579c9060d8743a4a836c2e57
+      Hash: b5bac74b220fe27eb8393ab8b3ddf152
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MiniMap
@@ -1636,4 +1636,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Title.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/Tutorial.unity
-  playerPath: C:/Users/2323179/Saved Games/Horse_Racing/Build/Horce_Racing.exe
+  playerPath: "C:/Users/2323179/OneDrive - \u795E\u5948\u5DDD\u5DE5\u79D1\u5927\u5B66/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/UnityBuild/HorseRacing/Horce_Racing.exe"

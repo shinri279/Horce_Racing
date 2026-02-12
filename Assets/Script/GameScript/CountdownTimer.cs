@@ -15,6 +15,7 @@ public class CountdownTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        elapsedTime = countdownTime;
         StartCoroutine(CountdownCoroutine());
     }
 
